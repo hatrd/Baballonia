@@ -84,17 +84,17 @@
                   <PathIcon Data="{StaticResource HeadsetVrRegular}" />
                 </MenuItem.Icon>
               </MenuItem>
-              <MenuItem Click="OnCalibrationMenuItemClick" x:Name="BasicCalibrationNoTutorial" Header="Eye Calibration (No Tutorial)">
+              <MenuItem Click="OnCalibrationMenuItemClick" x:Name="BasicCalibrationNoTutorial" Header="{x:Static assets:Resources.Home_Eye_Calibration_NoTutorial}">
                 <MenuItem.Icon>
                   <PathIcon Data="{StaticResource HeadsetVrRegular}" />
                 </MenuItem.Icon>
               </MenuItem>
-              <MenuItem Click="OnCalibrationMenuItemClick" x:Name="GazeOnly" Header="Gaze Calibration">
+              <MenuItem Click="OnCalibrationMenuItemClick" x:Name="GazeOnly" Header="{x:Static assets:Resources.Home_Eye_Gaze_Calibration}">
                 <MenuItem.Icon>
                   <PathIcon Data="{StaticResource HeadsetVrRegular}" />
                 </MenuItem.Icon>
               </MenuItem>
-              <MenuItem Click="OnCalibrationMenuItemClick" x:Name="BlinkOnly" Header="Blink Calibration">
+              <MenuItem Click="OnCalibrationMenuItemClick" x:Name="BlinkOnly" Header="{x:Static assets:Resources.Home_Eye_Blink_Calibration}">
                 <MenuItem.Icon>
                   <PathIcon Data="{StaticResource HeadsetVrRegular}" />
                 </MenuItem.Icon>
@@ -529,7 +529,7 @@
                 <Button
                     Command="{Binding SelectWholeFrameCommand}"
                     CommandParameter="{Binding RightCamera}"
-                    Content="Select Right Frame"
+                    Content="{x:Static assets:Resources.Home_Right_Camera_Select_Entire_Frame}"
                     FontSize="13"
                     HorizontalAlignment="Stretch"
                     HorizontalContentAlignment="Center"

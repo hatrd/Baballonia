@@ -46,7 +46,7 @@
   !define MUI_WELCOMEFINISHPAGE_BITMAP "Assets\MUI_WELCOMEFINISHPAGE_BITMAP.bmp"
   !define MUI_HEADERIMAGE_BITMAP "Assets\MUI_HEADERIMAGE_BITMAP.bmp"
   !define MUI_ABORTWARNING
-  !define MUI_WELCOMEPAGE_TITLE "${SLUG} Setup"
+  !define MUI_WELCOMEPAGE_TITLE "$(WelcomeTitle)"
 
 ;--------------------------------
 ;Pages
@@ -65,6 +65,18 @@
 
   ;Set UI language
   !insertmacro MUI_LANGUAGE "English"
+  !insertmacro MUI_LANGUAGE "SimpChinese"
+  !insertmacro MUI_LANGUAGE "TradChinese"
+
+  LangString WelcomeTitle ${LANG_ENGLISH} "${SLUG} Setup"
+  LangString WelcomeTitle ${LANG_SIMPCHINESE} "${SLUG} 安装"
+  LangString WelcomeTitle ${LANG_TRADCHINESE} "${SLUG} 安裝"
+  LangString DesktopShortcutLabel ${LANG_ENGLISH} "Desktop Shortcut"
+  LangString DesktopShortcutLabel ${LANG_SIMPCHINESE} "创建桌面快捷方式"
+  LangString DesktopShortcutLabel ${LANG_TRADCHINESE} "建立桌面捷徑"
+  LangString RemoveUserDataPrompt ${LANG_ENGLISH} "Do you also want to delete local user data/settings (stored under %APPDATA%\ProjectBabble)?"
+  LangString RemoveUserDataPrompt ${LANG_SIMPCHINESE} "是否同时删除本地用户数据和设置（位于 %APPDATA%\ProjectBabble）？"
+  LangString RemoveUserDataPrompt ${LANG_TRADCHINESE} "是否同時刪除本機使用者資料和設定（位於 %APPDATA%\ProjectBabble）？"
 
 ;--------------------------------
 ;Section - Install App
@@ -121,7 +133,7 @@
 ;--------------------------------
 ;Section - Shortcut
 
-  Section "Desktop Shortcut" DeskShort
+  Section "$(DesktopShortcutLabel)" DeskShort
     CreateShortCut "$DESKTOP\${NAME}.lnk" "$INSTDIR\${APPFILE}"
   SectionEnd
 
@@ -130,6 +142,8 @@
 
   ;Language strings
   LangString DESC_DeskShort ${LANG_ENGLISH} "Create Shortcut on Desktop."
+  LangString DESC_DeskShort ${LANG_SIMPCHINESE} "在桌面上创建 Baballonia 快捷方式。"
+  LangString DESC_DeskShort ${LANG_TRADCHINESE} "在桌面建立 Baballonia 捷徑。"
 
   ;Assign language strings to sections
   !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
@@ -169,7 +183,7 @@ Section "Uninstall"
 
   ;Prompt to delete local data
   MessageBox MB_YESNO|MB_ICONQUESTION \
-    "Do you also want to delete local user data/settings (stored under %APPDATA%\ProjectBabble)?" \
+    "$(RemoveUserDataPrompt)" \
     IDNO skip_userdata
 
   RMDir /r "$APPDATA\ProjectBabble"

@@ -38,13 +38,13 @@
 
           <TextBlock
             TextWrapping="Wrap"
-            Text="Project Babble now has a data sharing program to help us improve our eye and face tracking models. You can opt in or out anytime by visiting the settings page." />
+            Text="{x:Static assets:Resources.DropOverlay_DataSharing_Message}" />
 
           <Grid>
             <CheckBox
               x:Name="EyeDataCheckbox"
               IsCheckedChanged="Changed"
-              Content="Opt in" />
+              Content="{x:Static assets:Resources.DropOverlay_DataSharing_OptIn}" />
             <Button
               Click="EyeDataOptInRead"
               Content="{x:Static assets:Resources.DropOverlay_Dismiss_Button}"

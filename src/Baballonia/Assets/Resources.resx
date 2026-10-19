@@ -904,4 +904,340 @@ This is usually easy to fix! Just install the “Tracking Loss Fix” firmware b
   <data name="Tray_Exit" xml:space="preserve">
       <value>Exit</value>
   </data>
+  <data name="Calibration_Expression_LeftEyeLid" xml:space="preserve">
+    <value>Left eye openness</value>
+  </data>
+  <data name="Calibration_Expression_LeftEyeLid_Description" xml:space="preserve">
+    <value>Open or close the left eye; the value represents eyelid openness.</value>
+  </data>
+  <data name="Calibration_Expression_RightEyeLid" xml:space="preserve">
+    <value>Right eye openness</value>
+  </data>
+  <data name="Calibration_Expression_RightEyeLid_Description" xml:space="preserve">
+    <value>Open or close the right eye; the value represents eyelid openness.</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffLeft" xml:space="preserve">
+    <value>Puff left cheek</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffLeft_Description" xml:space="preserve">
+    <value>Inflate the left cheek with air.</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffRight" xml:space="preserve">
+    <value>Puff right cheek</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffRight_Description" xml:space="preserve">
+    <value>Inflate the right cheek with air.</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckLeft" xml:space="preserve">
+    <value>Suck in left cheek</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckLeft_Description" xml:space="preserve">
+    <value>Draw the left cheek inward.</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckRight" xml:space="preserve">
+    <value>Suck in right cheek</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckRight_Description" xml:space="preserve">
+    <value>Draw the right cheek inward.</value>
+  </data>
+  <data name="Calibration_Expression_JawOpen" xml:space="preserve">
+    <value>Open jaw</value>
+  </data>
+  <data name="Calibration_Expression_JawOpen_Description" xml:space="preserve">
+    <value>Lower the jaw to open the mouth.</value>
+  </data>
+  <data name="Calibration_Expression_JawForward" xml:space="preserve">
+    <value>Move jaw forward</value>
+  </data>
+  <data name="Calibration_Expression_JawForward_Description" xml:space="preserve">
+    <value>Push the lower jaw forward.</value>
+  </data>
+  <data name="Calibration_Expression_JawLeft" xml:space="preserve">
+    <value>Move jaw left</value>
+  </data>
+  <data name="Calibration_Expression_JawLeft_Description" xml:space="preserve">
+    <value>Move the lower jaw to your left.</value>
+  </data>
+  <data name="Calibration_Expression_JawRight" xml:space="preserve">
+    <value>Move jaw right</value>
+  </data>
+  <data name="Calibration_Expression_JawRight_Description" xml:space="preserve">
+    <value>Move the lower jaw to your right.</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerLeft" xml:space="preserve">
+    <value>Wrinkle left side of nose</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerLeft_Description" xml:space="preserve">
+    <value>Wrinkle the left side of the nose in a sneer.</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerRight" xml:space="preserve">
+    <value>Wrinkle right side of nose</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerRight_Description" xml:space="preserve">
+    <value>Wrinkle the right side of the nose in a sneer.</value>
+  </data>
+  <data name="Calibration_Expression_MouthFunnel" xml:space="preserve">
+    <value>Round open lips</value>
+  </data>
+  <data name="Calibration_Expression_MouthFunnel_Description" xml:space="preserve">
+    <value>Round both lips forward while keeping an opening, as for an O sound.</value>
+  </data>
+  <data name="Calibration_Expression_MouthPucker" xml:space="preserve">
+    <value>Pucker closed lips</value>
+  </data>
+  <data name="Calibration_Expression_MouthPucker_Description" xml:space="preserve">
+    <value>Bring the lips together and project them forward, as for a kiss.</value>
+  </data>
+  <data name="Calibration_Expression_MouthLeft" xml:space="preserve">
+    <value>Move mouth left</value>
+  </data>
+  <data name="Calibration_Expression_MouthLeft_Description" xml:space="preserve">
+    <value>Shift both lips together to your left.</value>
+  </data>
+  <data name="Calibration_Expression_MouthRight" xml:space="preserve">
+    <value>Move mouth right</value>
+  </data>
+  <data name="Calibration_Expression_MouthRight_Description" xml:space="preserve">
+    <value>Shift both lips together to your right.</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollUpper" xml:space="preserve">
+    <value>Roll upper lip inward</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollUpper_Description" xml:space="preserve">
+    <value>Tuck the upper lip inward into the mouth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollLower" xml:space="preserve">
+    <value>Roll lower lip inward</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollLower_Description" xml:space="preserve">
+    <value>Tuck the lower lip inward into the mouth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugUpper" xml:space="preserve">
+    <value>Raise and push out upper lip</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugUpper_Description" xml:space="preserve">
+    <value>Raise and slightly protrude the upper lip.</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugLower" xml:space="preserve">
+    <value>Raise and push out lower lip</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugLower_Description" xml:space="preserve">
+    <value>Raise and slightly protrude the lower lip, lifting the chin.</value>
+  </data>
+  <data name="Calibration_Expression_MouthClose" xml:space="preserve">
+    <value>Close lips</value>
+  </data>
+  <data name="Calibration_Expression_MouthClose_Description" xml:space="preserve">
+    <value>Bring the lips together independently of the jaw position.</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileLeft" xml:space="preserve">
+    <value>Smile on left side</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileLeft_Description" xml:space="preserve">
+    <value>Lift the left corner of the mouth in a smile.</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileRight" xml:space="preserve">
+    <value>Smile on right side</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileRight_Description" xml:space="preserve">
+    <value>Lift the right corner of the mouth in a smile.</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownLeft" xml:space="preserve">
+    <value>Lower left mouth corner</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownLeft_Description" xml:space="preserve">
+    <value>Pull the left mouth corner downward in a frown.</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownRight" xml:space="preserve">
+    <value>Lower right mouth corner</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownRight_Description" xml:space="preserve">
+    <value>Pull the right mouth corner downward in a frown.</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleLeft" xml:space="preserve">
+    <value>Pull left mouth corner back</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleLeft_Description" xml:space="preserve">
+    <value>Draw the left mouth corner backward to form a dimple.</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleRight" xml:space="preserve">
+    <value>Pull right mouth corner back</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleRight_Description" xml:space="preserve">
+    <value>Draw the right mouth corner backward to form a dimple.</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpLeft" xml:space="preserve">
+    <value>Raise left upper lip</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpLeft_Description" xml:space="preserve">
+    <value>Lift the left half of the upper lip to expose the upper teeth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpRight" xml:space="preserve">
+    <value>Raise right upper lip</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpRight_Description" xml:space="preserve">
+    <value>Lift the right half of the upper lip to expose the upper teeth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownLeft" xml:space="preserve">
+    <value>Lower left lower lip</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownLeft_Description" xml:space="preserve">
+    <value>Lower the left half of the lower lip to expose the lower teeth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownRight" xml:space="preserve">
+    <value>Lower right lower lip</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownRight_Description" xml:space="preserve">
+    <value>Lower the right half of the lower lip to expose the lower teeth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressLeft" xml:space="preserve">
+    <value>Press lips on left side</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressLeft_Description" xml:space="preserve">
+    <value>Press the upper and lower lips together on the left side.</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressRight" xml:space="preserve">
+    <value>Press lips on right side</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressRight_Description" xml:space="preserve">
+    <value>Press the upper and lower lips together on the right side.</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchLeft" xml:space="preserve">
+    <value>Stretch left mouth corner</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchLeft_Description" xml:space="preserve">
+    <value>Stretch the left mouth corner outward to widen the mouth.</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchRight" xml:space="preserve">
+    <value>Stretch right mouth corner</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchRight_Description" xml:space="preserve">
+    <value>Stretch the right mouth corner outward to widen the mouth.</value>
+  </data>
+  <data name="Calibration_Expression_TongueOut" xml:space="preserve">
+    <value>Stick tongue out</value>
+  </data>
+  <data name="Calibration_Expression_TongueOut_Description" xml:space="preserve">
+    <value>Extend the tongue out of the mouth.</value>
+  </data>
+  <data name="Calibration_Expression_TongueUp" xml:space="preserve">
+    <value>Point tongue up</value>
+  </data>
+  <data name="Calibration_Expression_TongueUp_Description" xml:space="preserve">
+    <value>Point the tongue tip upward.</value>
+  </data>
+  <data name="Calibration_Expression_TongueDown" xml:space="preserve">
+    <value>Point tongue down</value>
+  </data>
+  <data name="Calibration_Expression_TongueDown_Description" xml:space="preserve">
+    <value>Point the tongue tip downward.</value>
+  </data>
+  <data name="Calibration_Expression_TongueLeft" xml:space="preserve">
+    <value>Point tongue left</value>
+  </data>
+  <data name="Calibration_Expression_TongueLeft_Description" xml:space="preserve">
+    <value>Move the tongue toward your left.</value>
+  </data>
+  <data name="Calibration_Expression_TongueRight" xml:space="preserve">
+    <value>Point tongue right</value>
+  </data>
+  <data name="Calibration_Expression_TongueRight_Description" xml:space="preserve">
+    <value>Move the tongue toward your right.</value>
+  </data>
+  <data name="Calibration_Expression_TongueRoll" xml:space="preserve">
+    <value>Roll tongue into a tube</value>
+  </data>
+  <data name="Calibration_Expression_TongueRoll_Description" xml:space="preserve">
+    <value>Curl both sides of the tongue upward into a tube.</value>
+  </data>
+  <data name="Calibration_Expression_TongueBendDown" xml:space="preserve">
+    <value>Arch tongue downward</value>
+  </data>
+  <data name="Calibration_Expression_TongueBendDown_Description" xml:space="preserve">
+    <value>Arch the tongue body up while bending the tip downward.</value>
+  </data>
+  <data name="Calibration_Expression_TongueCurlUp" xml:space="preserve">
+    <value>Curl tongue tip upward</value>
+  </data>
+  <data name="Calibration_Expression_TongueCurlUp_Description" xml:space="preserve">
+    <value>Lower the tongue body while curling the tip upward.</value>
+  </data>
+  <data name="Calibration_Expression_TongueSquish" xml:space="preserve">
+    <value>Narrow and thicken tongue</value>
+  </data>
+  <data name="Calibration_Expression_TongueSquish_Description" xml:space="preserve">
+    <value>Make the tongue narrower and thicker.</value>
+  </data>
+  <data name="Calibration_Expression_TongueFlat" xml:space="preserve">
+    <value>Flatten and widen tongue</value>
+  </data>
+  <data name="Calibration_Expression_TongueFlat_Description" xml:space="preserve">
+    <value>Make the tongue wider and flatter.</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistLeft" xml:space="preserve">
+    <value>Twist tongue left</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistLeft_Description" xml:space="preserve">
+    <value>Twist the tongue tip to the left, with the tongue body following.</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistRight" xml:space="preserve">
+    <value>Twist tongue right</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistRight_Description" xml:space="preserve">
+    <value>Twist the tongue tip to the right, with the tongue body following.</value>
+  </data>
+  <data name="Calibration_Instructions_ParameterHelp" xml:space="preserve">
+    <value>Left and right refer to your own body. Each description explains the action. Hover over a name to see its original parameter key. The slider endpoints set the minimum and maximum thresholds; the middle marker shows the current value.</value>
+  </data>
+  <data name="Settings_Identifier_Label" xml:space="preserve">
+    <value>Your identifier:</value>
+  </data>
+  <data name="Firmware_Mode_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Firmware_Mode_Wired" xml:space="preserve">
+    <value>Wired</value>
+  </data>
+  <data name="Firmware_Mode_Wireless" xml:space="preserve">
+    <value>Wireless</value>
+  </data>
+  <data name="Firmware_MDNS_Header" xml:space="preserve">
+    <value>Change mDNS name (optional)</value>
+  </data>
+  <data name="Firmware_MDNS_Placeholder" xml:space="preserve">
+    <value>Enter mDNS name…</value>
+  </data>
+  <data name="Home_Eye_Calibration_NoTutorial" xml:space="preserve">
+    <value>Eye Calibration (No Tutorial)</value>
+  </data>
+  <data name="Home_Eye_Gaze_Calibration" xml:space="preserve">
+    <value>Gaze Calibration</value>
+  </data>
+  <data name="Home_Eye_Blink_Calibration" xml:space="preserve">
+    <value>Blink Calibration</value>
+  </data>
+  <data name="DropOverlay_DataSharing_Message" xml:space="preserve">
+    <value>Project Babble offers a data sharing program to improve eye and face tracking models. You can opt in or out at any time in Settings.</value>
+  </data>
+  <data name="DropOverlay_DataSharing_OptIn" xml:space="preserve">
+    <value>Opt in</value>
+  </data>
+  <data name="Common_FirmwareFile" xml:space="preserve">
+    <value>Firmware files</value>
+  </data>
+  <data name="Common_TextFile" xml:space="preserve">
+    <value>Text files</value>
+  </data>
+  <data name="Common_OnnxModels" xml:space="preserve">
+    <value>ONNX models</value>
+  </data>
+  <data name="Output_SaveLog_DialogTitle" xml:space="preserve">
+    <value>Save log file</value>
+  </data>
+  <data name="Firmware_SelectFirmware_DialogTitle" xml:space="preserve">
+    <value>Select firmware (.bin)</value>
+  </data>
+  <data name="Home_SelectModel_DialogTitle" xml:space="preserve">
+    <value>Select ONNX model</value>
+  </data>
 </root>

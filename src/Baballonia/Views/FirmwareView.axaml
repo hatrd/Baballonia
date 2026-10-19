@@ -99,10 +99,10 @@
                                   SelectedItem="{Binding DeviceModeSelectedItem}"
                                   PlaceholderText="{x:Static assets:Resources.Firmware_Device_Mode_Select_Placeholder}">
                           <!--
-                          <ComboBoxItem Tag="auto" x:Name="Hybrid" Content="Auto" />
+                          <ComboBoxItem Tag="auto" x:Name="Hybrid" Content="{x:Static assets:Resources.Firmware_Mode_Auto}" />
                           -->
-                          <ComboBoxItem Tag="uvc" x:Name="Wired" Content="Wired" />
-                          <ComboBoxItem Tag="wifi" x:Name="Wireless" Content="Wireless" />
+                          <ComboBoxItem Tag="uvc" x:Name="Wired" Content="{x:Static assets:Resources.Firmware_Mode_Wired}" />
+                          <ComboBoxItem Tag="wifi" x:Name="Wireless" Content="{x:Static assets:Resources.Firmware_Mode_Wireless}" />
                         </ComboBox>
                         <Button Command="{Binding SetDeviceModeCommand}"
                                 Content="{Binding ModeSetButton}"/>
@@ -188,12 +188,12 @@
                           <!--<TextBlock
                             FontSize="12"
                             FontWeight="Bold"
-                            Text="Change MDNS (Optional)" />
+                            Text="{x:Static assets:Resources.Firmware_MDNS_Header}" />
                           <TextBox
                             HorizontalAlignment="Left"
                             Width="200"
                             Text="{Binding Mdns, Mode=TwoWay}"
-                            Watermark="Enter MDNS..." />-->
+                            Watermark="{x:Static assets:Resources.Firmware_MDNS_Placeholder}" />-->
                       </StackPanel>
 
                       <StackPanel Orientation="Horizontal" Spacing="12">

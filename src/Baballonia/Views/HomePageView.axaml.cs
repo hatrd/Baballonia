@@ -4,6 +4,7 @@ using Avalonia.Media;
 using Avalonia.Platform.Storage;
 using Avalonia.VisualTree;
 using Baballonia.Contracts;
+using LocalizedResources = Baballonia.Assets.Resources;
 using Baballonia.Helpers;
 using Baballonia.ViewModels.SplitViewPane;
 using System;
@@ -15,7 +16,7 @@ namespace Baballonia.Views;
 
 public partial class HomePageView : ViewBase
 {
-    private static readonly FilePickerFileType OnnxAll = new("ONNX Models")
+    private static FilePickerFileType OnnxAll => new(LocalizedResources.Common_OnnxModels)
     {
         Patterns = ["*.onnx"],
     };
@@ -260,7 +261,7 @@ public partial class HomePageView : ViewBase
             await topLevelStorageProvider.TryGetFolderFromPathAsync(Utils.ModelsDirectory)!;
         var file = await topLevelStorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
         {
-            Title = "Select ONNX Model",
+            Title = LocalizedResources.Home_SelectModel_DialogTitle,
             AllowMultiple = false,
             SuggestedStartLocation = suggestedStartLocation, // Falls back to desktop if Models folder hasn't been created yet
             FileTypeFilter = [OnnxAll]

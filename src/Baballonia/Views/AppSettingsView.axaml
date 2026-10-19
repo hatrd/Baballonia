@@ -408,7 +408,7 @@
           </Grid>
         </Expander.Header>
           <StackPanel Spacing="12">
-            <TextBlock Text="Your Identifier:"/>
+            <TextBlock Text="{x:Static assets:Resources.Settings_Identifier_Label}"/>
             <Border
               Background="{DynamicResource SystemChromeMediumColor}"
               CornerRadius="6"

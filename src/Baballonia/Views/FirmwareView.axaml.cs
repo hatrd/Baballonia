@@ -2,13 +2,14 @@
 using Avalonia.Interactivity;
 using Avalonia.Platform.Storage;
 using Baballonia.ViewModels.SplitViewPane;
+using LocalizedResources = Baballonia.Assets.Resources;
 using System;
 
 namespace Baballonia.Views;
 
 public partial class FirmwareView : ViewBase
 {
-    public static FilePickerFileType BinAll { get; } = new("Firmware")
+    public static FilePickerFileType BinAll => new(LocalizedResources.Common_FirmwareFile)
     {
         Patterns = ["*.bin"],
     };
@@ -25,7 +26,7 @@ public partial class FirmwareView : ViewBase
         var topLevelStorageProvider = TopLevel.GetTopLevel(this)!.StorageProvider;
         var file = await topLevelStorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
         {
-            Title = "Select Firmware .bin",
+            Title = LocalizedResources.Firmware_SelectFirmware_DialogTitle,
             AllowMultiple = false,
             FileTypeFilter = [BinAll]
         })!;

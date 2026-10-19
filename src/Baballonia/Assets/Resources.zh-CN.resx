@@ -121,10 +121,10 @@
     <value>深色</value>
   </data>
   <data name="Settings_Theme_Default_Content" xml:space="preserve">
-    <value>默认设置</value>
+    <value>跟随系统</value>
   </data>
   <data name="Settings_Theme_Light_Content" xml:space="preserve">
-    <value>亮色的</value>
+    <value>浅色</value>
   </data>
   <data name="Home_Title_Header" xml:space="preserve">
     <value>首页</value>
@@ -133,49 +133,49 @@
     <value>应用主题</value>
   </data>
   <data name="Settings_Theme_Description" xml:space="preserve">
-    <value>选择要显示的应用主题</value>
+    <value>选择应用的显示主题</value>
   </data>
   <data name="Settings_OSC_Description" xml:space="preserve">
-    <value>OSC数据应从何处发送？</value>
+    <value>设置 OSC 数据的发送目标</value>
   </data>
   <data name="Settings_OSC_Header" xml:space="preserve">
     <value>OSC</value>
   </data>
   <data name="Home_Eye_Calibration" xml:space="preserve">
-    <value>眼睛校准</value>
+    <value>眼动校准</value>
   </data>
   <data name="Home_Left_Camera_Address" xml:space="preserve">
-    <value>左侧相机地址</value>
+    <value>左眼摄像头地址</value>
   </data>
   <data name="Home_Cameras_Start_Camera" xml:space="preserve">
-    <value>启动相机</value>
+    <value>启动摄像头</value>
   </data>
   <data name="Home_Cameras_Stop_Camera" xml:space="preserve">
     <value>停止摄像头</value>
   </data>
   <data name="Home_Cameras_Tracking_Mode" xml:space="preserve">
-    <value>跟踪</value>
+    <value>追踪</value>
   </data>
   <data name="Home_Cameras_Cropping_Mode" xml:space="preserve">
-    <value>裁剪中</value>
+    <value>裁剪</value>
   </data>
   <data name="Home_Left_Camera_Select_Entire_Frame" xml:space="preserve">
-    <value>选择左边帧</value>
+    <value>选取完整左眼画面</value>
   </data>
   <data name="Home_Cameras_Vertical_Flip_Header" xml:space="preserve">
     <value>垂直翻转</value>
   </data>
   <data name="Home_Cameras_Vertical_Flip_Description" xml:space="preserve">
-    <value>垂直翻转图像</value>
+    <value>上下翻转图像</value>
   </data>
   <data name="Home_Cameras_Horizontal_Flip_Header" xml:space="preserve">
     <value>水平翻转</value>
   </data>
   <data name="Home_Cameras_Horizontal_Flip_Description" xml:space="preserve">
-    <value>水平翻转图像</value>
+    <value>左右翻转图像</value>
   </data>
   <data name="Home_Cameras_Rotation_Description" xml:space="preserve">
-    <value>旋转一个圆形的图像</value>
+    <value>调整图像的旋转角度</value>
   </data>
   <data name="Home_Cameras_Brightness_Header" xml:space="preserve">
     <value>图像亮度</value>
@@ -187,238 +187,238 @@
     <value>调整图像亮度</value>
   </data>
   <data name="Home_Right_Camera_Address" xml:space="preserve">
-    <value>右侧相机地址</value>
+    <value>右眼摄像头地址</value>
   </data>
   <data name="Home_Right_Camera_Select_Entire_Frame" xml:space="preserve">
-    <value>选择右边帧</value>
+    <value>选取完整右眼画面</value>
   </data>
   <data name="Home_Face_Camera_Address" xml:space="preserve">
-    <value>面部相机地址</value>
+    <value>面部摄像头地址</value>
   </data>
   <data name="Home_Face_Camera_Select_Entire_Frame" xml:space="preserve">
-    <value>选择人脸帧</value>
+    <value>选取完整面部画面</value>
   </data>
   <data name="Home_Left_Camera_Header" xml:space="preserve">
-    <value>左眼相机</value>
+    <value>左眼摄像头</value>
   </data>
   <data name="Home_Face_Camera_Header" xml:space="preserve">
-    <value>面部相机</value>
+    <value>面部摄像头</value>
   </data>
   <data name="Home_Right_Camera_Header" xml:space="preserve">
-    <value>右眼相机</value>
+    <value>右眼摄像头</value>
   </data>
   <data name="Home_Left_Camera_Settings" xml:space="preserve">
-    <value>左侧相机设置</value>
+    <value>左眼摄像头设置</value>
   </data>
   <data name="Home_Face_Camera_Settings" xml:space="preserve">
-    <value>面部相机设置</value>
+    <value>面部摄像头设置</value>
   </data>
   <data name="Home_Right_Camera_Settings" xml:space="preserve">
-    <value>右侧相机设置</value>
+    <value>右眼摄像头设置</value>
   </data>
   <data name="Common_Start_Typing" xml:space="preserve">
-    <value>开始输入...</value>
+    <value>开始输入…</value>
   </data>
   <data name="Calibration_Title_Header" xml:space="preserve">
-    <value>校准</value>
+    <value>表情校准</value>
   </data>
   <data name="Calibration_Reset_Minimums" xml:space="preserve">
-    <value>重置最小值</value>
+    <value>重置最小阈值</value>
   </data>
   <data name="Calibration_Reset_Maximums" xml:space="preserve">
-    <value>重置最大值</value>
+    <value>重置最大阈值</value>
   </data>
   <data name="Calibration_Eye_Expressions_Header" xml:space="preserve">
-    <value>眼睛表达式</value>
+    <value>眼部表情</value>
   </data>
   <data name="Calibration_Nose_Expressions_Header" xml:space="preserve">
-    <value>Nose 表达式</value>
+    <value>鼻部表情</value>
   </data>
   <data name="Calibration_Tongue_Expressions_Header" xml:space="preserve">
-    <value>Tongue 表达式</value>
+    <value>舌部动作</value>
   </data>
   <data name="Calibration_Mouth_Expressions_Header" xml:space="preserve">
-    <value>鼠标表达式</value>
+    <value>嘴部表情</value>
   </data>
   <data name="Calibration_Jaw_Expressions_Header" xml:space="preserve">
-    <value>Jaw 表达式</value>
+    <value>下颌动作</value>
   </data>
   <data name="Calibration_Cheek_Expressions_Header" xml:space="preserve">
-    <value>支票表达式</value>
+    <value>脸颊表情</value>
   </data>
   <data name="Calibration_Eye_Expressions_Stabilize_Eyes_Header" xml:space="preserve">
-    <value>稳定眼镜</value>
+    <value>稳定眼动</value>
   </data>
   <data name="Calibration_Eye_Expressions_Stabilize_Eyes_Description" xml:space="preserve">
-    <value>阻止眼睛朝相反方向看，但可能是错误的。</value>
+    <value>防止双眼向两侧异常外斜，并提高瞳孔追踪的稳定性。</value>
   </data>
   <data name="Firmware_Title_Header" xml:space="preserve">
     <value>固件</value>
   </data>
   <data name="Firmware_Select_Tracker_Header" xml:space="preserve">
-    <value>选择您的追踪器</value>
+    <value>选择追踪器</value>
   </data>
   <data name="Firmware_Device_Instructions_1" xml:space="preserve">
-    <value>• 启动/连接您的设备后，您将有 20 秒按“刷新”并从下拉列表中选择您的设备</value>
+    <value>• 设备通电或连接后，请在 20 秒内点击“刷新设备”，并从下拉列表中选择设备。</value>
   </data>
   <data name="Firmware_Device_Instructions_2" xml:space="preserve">
-    <value>• 某些配置操作将花一点点时间！</value>
+    <value>• 部分配置操作需要等待片刻。</value>
   </data>
   <data name="Firmware_Device_Configuration_Header" xml:space="preserve">
     <value>设备配置</value>
   </data>
   <data name="Firmware_Device_Configuration_Description" xml:space="preserve">
-    <value>切换有线/无线模式</value>
+    <value>切换有线或无线模式</value>
   </data>
   <data name="Firmware_Device_Mode_Header" xml:space="preserve">
-    <value>切换有线/无线模式</value>
+    <value>切换有线或无线模式</value>
   </data>
   <data name="Firmware_Device_Mode_Instruction_1" xml:space="preserve">
-    <value>• 您需要在更改模式后重新启动您的追踪器</value>
+    <value>• 更改模式后，必须重启追踪器。</value>
   </data>
   <data name="Firmware_Device_Mode_Instruction_2" xml:space="preserve">
-    <value>• 您可能需要在刷入后重启应用才能显示</value>
+    <value>• 刷写固件后，可能需要重启应用才能找到追踪器。</value>
   </data>
   <data name="Firmware_Device_Mode_Select_Placeholder" xml:space="preserve">
-    <value>选择一个模式...</value>
+    <value>选择模式…</value>
   </data>
   <data name="Firmware_Wifi_Configuration_Header" xml:space="preserve">
-    <value>Wifi配置</value>
+    <value>Wi-Fi 配置</value>
   </data>
   <data name="Firmware_Wifi_Configuration_Description" xml:space="preserve">
-    <value>连接到 Wifi 及更多</value>
+    <value>设置无线网络连接</value>
   </data>
   <data name="Firmware_Wifi_Credentials_Header" xml:space="preserve">
-    <value>设置您的 Wi-Fi 凭据</value>
+    <value>设置 Wi-Fi 名称和密码</value>
   </data>
   <data name="Firmware_Wifi_Instructions_1" xml:space="preserve">
-    <value>• 如果你想要无线地使用你的追踪器，你需要设置它的 Wifi 凭据</value>
+    <value>• 要以无线模式使用追踪器，必须设置 Wi-Fi 名称和密码。</value>
   </data>
   <data name="Firmware_Wifi_Instructions_2" xml:space="preserve">
-    <value>• 您必须扫描Wifi网络BEFORE 可以设置您的 Wifi 凭据</value>
+    <value>• 请先扫描 Wi-Fi 网络，再设置网络名称和密码。</value>
   </data>
   <data name="Firmware_Wifi_SSID_Label" xml:space="preserve">
-    <value>WiFi 网络名称 (SSID)</value>
+    <value>Wi-Fi 网络名称（SSID）</value>
   </data>
   <data name="Firmware_Wifi_SSID_Placeholder" xml:space="preserve">
-    <value>开始输入查看WiFi网络...</value>
+    <value>输入以查找 Wi-Fi 网络…</value>
   </data>
   <data name="Firmware_Wifi_Password_Label" xml:space="preserve">
-    <value>WiFi密码</value>
+    <value>Wi-Fi 密码</value>
   </data>
   <data name="Firmware_Wifi_Password_Placeholder" xml:space="preserve">
-    <value>输入WiFi密码...</value>
+    <value>输入 Wi-Fi 密码…</value>
   </data>
   <data name="Firmware_Flashing_Header" xml:space="preserve">
-    <value>升级/反射固件</value>
+    <value>升级或重新刷写固件</value>
   </data>
   <data name="Firmware_Flashing_Description" xml:space="preserve">
-    <value>刷入您设备的固件</value>
+    <value>将固件写入设备</value>
   </data>
   <data name="Firmware_Flashing_Warning" xml:space="preserve">
-    <value>警告!! 这将重置您的追踪器到出厂设置。您需要在闪存您的追踪器后执行首次设置。</value>
+    <value>注意：刷写固件会将追踪器恢复为出厂设置。完成后，必须重新进行首次设置。</value>
   </data>
   <data name="Firmware_Type_To_Flash" xml:space="preserve">
-    <value>要闪存的固件类型：</value>
+    <value>要刷写的固件类型：</value>
   </data>
   <data name="Firmware_Flashing_Button" xml:space="preserve">
-    <value>闪光固件</value>
+    <value>刷写固件</value>
   </data>
   <data name="Firmware_Flashing_Note" xml:space="preserve">
-    <value>这将需要 ~10 秒左右。不要离开这个页面！</value>
+    <value>大约需要 10 秒，请勿离开此页面。</value>
   </data>
   <data name="Firmware_Flashing_Complete" xml:space="preserve">
-    <value>完成！您将需要重新启动您的追踪器</value>
+    <value>刷写完成！请重启追踪器。</value>
   </data>
   <data name="Firmware_TrackerComboBox_Default" xml:space="preserve">
-    <value>点击查看跟踪者...</value>
+    <value>点击查看追踪器…</value>
   </data>
   <data name="Firmware_RefreshDevices_Default" xml:space="preserve">
     <value>刷新设备</value>
   </data>
   <data name="Firmware_RefreshDevices_Refreshing" xml:space="preserve">
-    <value>正在刷新</value>
+    <value>正在刷新…</value>
   </data>
   <data name="Firmware_RefreshDevices_Found" xml:space="preserve">
-    <value>找到 {0} 设备 (s)。</value>
+    <value>找到 {0} 个设备。</value>
   </data>
   <data name="Firmware_SelectTracker_Default" xml:space="preserve">
-    <value>选择追踪器</value>
+    <value>连接追踪器</value>
   </data>
   <data name="Firmware_SelectTracker_Connected" xml:space="preserve">
     <value>追踪器已连接！</value>
   </data>
   <data name="Firmware_SelectTracker_NoResponse" xml:space="preserve">
-    <value>Tracker 没有响应。</value>
+    <value>追踪器未响应。</value>
   </data>
   <data name="Firmware_ModeSetButton_Default" xml:space="preserve">
     <value>设置模式</value>
   </data>
   <data name="Firmware_ModeSetButton_Setting" xml:space="preserve">
-    <value>设置模式</value>
+    <value>正在设置模式…</value>
   </data>
   <data name="Firmware_ModeSetButton_Success" xml:space="preserve">
-    <value>设置！</value>
+    <value>设置完成！</value>
   </data>
   <data name="Firmware_WifiSetButton_Default" xml:space="preserve">
-    <value>设置 Wifi Creds</value>
+    <value>设置 Wi-Fi 名称和密码</value>
   </data>
   <data name="Firmware_WifiSetButton_Setting" xml:space="preserve">
-    <value>正在设置 WiFi 凭据</value>
+    <value>正在设置 Wi-Fi 名称和密码…</value>
   </data>
   <data name="Firmware_WifiSetButton_Success" xml:space="preserve">
     <value>已发送！</value>
   </data>
   <data name="Firmware_WifiSetButton_Error" xml:space="preserve">
-    <value>出了错...</value>
+    <value>设置失败，请重试。</value>
   </data>
   <data name="Firmware_WifiScanButton_Default" xml:space="preserve">
-    <value>刷新 Wifi 网络</value>
+    <value>刷新 Wi-Fi 网络</value>
   </data>
   <data name="Firmware_WifiScanButton_Scanning" xml:space="preserve">
-    <value>扫描。最多需要30秒钟。</value>
+    <value>正在扫描，最多需要 30 秒…</value>
   </data>
   <data name="Firmware_WifiScanButton_Error" xml:space="preserve">
-    <value>扫描失败。点击重试。</value>
+    <value>扫描失败，点击重试。</value>
   </data>
   <data name="Firmware_WifiScanButton_Success" xml:space="preserve">
-    <value>找到 {0} 网络。点击再次扫描。</value>
+    <value>找到 {0} 个网络，点击重新扫描。</value>
   </data>
   <data name="VRC_Title_Header" xml:space="preserve">
-    <value>VRChat + VRCFacebook跟踪设置</value>
+    <value>VRChat 与 VRCFaceTracking 设置</value>
   </data>
   <data name="VRC_UseNativeEyeTracking_Header" xml:space="preserve">
-    <value>使用原生VRC 眼睛跟踪</value>
+    <value>使用 VRChat 原生眼动追踪</value>
   </data>
   <data name="VRC_UseNativeEyeTracking_Description" xml:space="preserve">
-    <value>将眼睛跟踪带到没有VRC追踪的头像</value>
+    <value>为未配置 VRCFaceTracking 的虚拟形象启用眼动追踪</value>
   </data>
   <data name="VRC_ModuleMode_Header" xml:space="preserve">
-    <value>设置 VRCFT 模块模式</value>
+    <value>VRCFT 模块模式</value>
   </data>
   <data name="VRC_ModuleMode_Description" xml:space="preserve">
-    <value>只发送眼睛，只有脸还是双面？(更改需要重新启动VRCFT)</value>
+    <value>选择仅发送眼部、仅发送面部或同时发送两者的数据。更改后需重启 VRCFT。</value>
   </data>
   <data name="VRC_ModuleMode_Placeholder" xml:space="preserve">
-    <value>选择一个模式...</value>
+    <value>选择模式…</value>
   </data>
   <data name="Output_Title_Header" xml:space="preserve">
-    <value>产出</value>
+    <value>日志输出</value>
   </data>
   <data name="Output_CopyButton_Tooltip" xml:space="preserve">
-    <value>复制日志输出到剪贴板</value>
+    <value>将日志内容复制到剪贴板</value>
   </data>
   <data name="Output_SaveButton_Tooltip" xml:space="preserve">
-    <value>保存日志输出</value>
+    <value>保存日志内容</value>
   </data>
   <data name="Output_OpenLoggingDirectoryButton_Tooltip" xml:space="preserve">
-    <value>打开日志目录</value>
+    <value>打开日志文件夹</value>
   </data>
   <data name="Onboarding_Welcome_Message" xml:space="preserve">
-    <value>本向导将帮助您设置新的Babble应用程序。</value>
+    <value>本向导将引导你完成新版 Babble 应用的初始设置。</value>
   </data>
   <data name="Onboarding_Slide_Welcome" xml:space="preserve">
-    <value>欢迎!</value>
+    <value>欢迎！</value>
   </data>
   <data name="Onboarding_Slide_Firmware" xml:space="preserve">
     <value>固件</value>
@@ -427,10 +427,10 @@
     <value>组装</value>
   </data>
   <data name="Onboarding_Slide_UIOverview" xml:space="preserve">
-    <value>用户界面概览</value>
+    <value>界面概览</value>
   </data>
   <data name="Onboarding_Slide_Finished" xml:space="preserve">
-    <value>完成!</value>
+    <value>完成！</value>
   </data>
   <data name="Onboarding_Next_Button" xml:space="preserve">
     <value>下一步</value>
@@ -439,22 +439,22 @@
     <value>完成</value>
   </data>
   <data name="Onboarding_Wireless_Header" xml:space="preserve">
-    <value>有线或无线网络？</value>
+    <value>使用有线还是无线模式？</value>
   </data>
   <data name="Onboarding_Wireless_Description1" xml:space="preserve">
-    <value>随着较新的 Babbles, 您需要在固件标签页(Icon上面) 进行首次设置。</value>
+    <value>新版 Babble 追踪器需要先在“固件”页面（上方图标）完成首次设置。</value>
   </data>
   <data name="Onboarding_Wireless_Description2" xml:space="preserve">
-    <value>它只需要2分钟！选择您的跟踪器和模式 (有线或无线)。这很简单。</value>
+    <value>只需约 2 分钟：选择追踪器，再设置有线或无线模式即可。</value>
   </data>
   <data name="Onboarding_Wireless_Note" xml:space="preserve">
-    <value>请注意较新的跟踪器在进入相机模式之前有一个20秒的窗口。</value>
+    <value>新版追踪器通电后，会等待 20 秒再进入摄像头模式。请在这段时间内连接设备进行配置。</value>
   </data>
   <data name="Onboarding_Assembly_Header" xml:space="preserve">
-    <value>召集您的追踪器</value>
+    <value>组装追踪器</value>
   </data>
   <data name="Onboarding_Assembly_Description" xml:space="preserve">
-    <value>如果你需要帮助你的跟踪者集合起来，这里是一个有用的 Youtube 教程！</value>
+    <value>需要组装帮助？可以参考这个 YouTube 教程。</value>
   </data>
   <data name="Settings_Title_Header" xml:space="preserve">
     <value>应用设置</value>
@@ -463,82 +463,82 @@
     <value>语言</value>
   </data>
   <data name="Settings_Language_Description" xml:space="preserve">
-    <value>设置应用程序的语言。切换页面以应用。</value>
+    <value>设置应用的显示语言，切换页面后生效。</value>
   </data>
   <data name="Settings_Language_Default" xml:space="preserve">
-    <value>默认设置</value>
+    <value>跟随系统</value>
   </data>
   <data name="Settings_Language_English" xml:space="preserve">
-    <value>Distr.</value>
+    <value>英语</value>
   </data>
   <data name="Settings_Language_Spanish" xml:space="preserve">
-    <value>Español</value>
+    <value>西班牙语</value>
   </data>
   <data name="Settings_Language_Japanese" xml:space="preserve">
-    <value>日本語</value>
+    <value>日语</value>
   </data>
   <data name="Settings_Language_Polish" xml:space="preserve">
-    <value>Polski</value>
+    <value>波兰语</value>
   </data>
   <data name="Settings_Language_Chinese" xml:space="preserve">
     <value>中文</value>
   </data>
   <data name="Settings_Filter_Header" xml:space="preserve">
-    <value>Euro 过滤器设置</value>
+    <value>One Euro 滤波器设置</value>
   </data>
   <data name="Settings_Filter_Description" xml:space="preserve">
-    <value>过滤器设置</value>
+    <value>调整追踪数据的平滑程度与响应速度</value>
   </data>
   <data name="Settings_Filter_MinFreq_Label" xml:space="preserve">
-    <value>最小频率剪切数</value>
+    <value>最低截止频率</value>
   </data>
   <data name="Settings_Filter_MinFreq_Description" xml:space="preserve">
-    <value>控制移动速度慢的平滑程度</value>
+    <value>控制缓慢动作的平滑程度；数值越低，平滑越强。</value>
   </data>
   <data name="Settings_Filter_Template_Placeholder" xml:space="preserve">
-    <value>从模板选择</value>
+    <value>选择预设…</value>
   </data>
   <data name="Settings_Filter_Template_Low" xml:space="preserve">
-    <value>低 ({0})</value>
+    <value>低（{0}）</value>
   </data>
   <data name="Settings_Filter_Template_Medium" xml:space="preserve">
-    <value>中 ({0})</value>
+    <value>中（{0}）</value>
   </data>
   <data name="Settings_Filter_Template_High" xml:space="preserve">
-    <value>高 ({0})</value>
+    <value>高（{0}）</value>
   </data>
   <data name="Settings_Filter_Speed_Label" xml:space="preserve">
     <value>速度系数</value>
   </data>
   <data name="Settings_Filter_Speed_Description" xml:space="preserve">
-    <value>确定当您移动更快时过滤器的适配方式</value>
+    <value>控制快速动作时的响应；数值越高，动作响应越快。</value>
   </data>
   <data name="Settings_GPU_Header" xml:space="preserve">
     <value>使用 GPU 加速</value>
   </data>
   <data name="Settings_GPU_Description" xml:space="preserve">
-    <value>使用您的 GPU 来更快地运行！需要重启</value>
+    <value>使用显卡加速模型推理，更改后需重启应用。</value>
   </data>
   <data name="Settings_LogLevel_Header" xml:space="preserve">
-    <value>日志级别的详细信息</value>
+    <value>日志级别</value>
   </data>
   <data name="Settings_LogLevel_Description" xml:space="preserve">
-    <value>日志级别最小。需要重启</value>
+    <value>设置记录日志的最低级别，更改后需重启应用。</value>
   </data>
   <data name="Settings_Updates_Header" xml:space="preserve">
     <value>检查更新</value>
   </data>
   <data name="Settings_Updates_Description" xml:space="preserve">
-    <value>应用程序是否应该在开始时检查更新？</value>
+    <value>启动应用时自动检查更新</value>
   </data>
   <data name="Settings_FirstTime_Header" xml:space="preserve">
-    <value>启动首次设置</value>
+    <value>重新打开初始设置向导</value>
   </data>
   <data name="Settings_FirstTime_Description" xml:space="preserve">
-    <value>重置首次设置</value>
+    <value>再次运行首次设置向导</value>
   </data>
   <data name="Settings_FirstTime_Button" xml:space="preserve">
-    <value>启动</value>
+    <value>打开向导</value>
   </data>
   <data name="Onboarding_Previous_Button" xml:space="preserve">
     <value>上一步</value>
@@ -547,46 +547,46 @@
     <value>跳过</value>
   </data>
   <data name="Onboarding_UI_Header" xml:space="preserve">
-    <value>每件事在哪里？</value>
+    <value>各项功能在哪里？</value>
   </data>
   <data name="Onboarding_UI_Home_Description" xml:space="preserve">
-    <value>1. 主页是您可以设置相机并进行眼睛跟踪校准的地方。</value>
+    <value>1. 首页：设置摄像头并进行眼动校准。</value>
   </data>
   <data name="Onboarding_UI_Calibration_Description" xml:space="preserve">
-    <value>2. 校准可以单独调整您的眼睛/脸表达式。</value>
+    <value>2. 表情校准：单独调整每项眼部、脸颊、下颌、鼻部、嘴部和舌部动作的触发范围。</value>
   </data>
   <data name="Onboarding_UI_Firmware_Description" xml:space="preserve">
-    <value>3. 固件页面用于设置或重置您的设备。</value>
+    <value>3. 固件：配置设备或将其恢复为出厂设置。</value>
   </data>
   <data name="Onboarding_UI_VRChat_Description" xml:space="preserve">
-    <value>4. VRChat 页面用于更改 VRChat/VRCFacebook跟踪特定设置。</value>
+    <value>4. VRChat：调整 VRChat 和 VRCFaceTracking 的专用设置。</value>
   </data>
   <data name="Onboarding_UI_Output_Description" xml:space="preserve">
-    <value>5. 输出页面显示应用的状态和其他有用信息。</value>
+    <value>5. 日志输出：查看应用运行状态和其他信息。</value>
   </data>
   <data name="Onboarding_UI_Settings_Description" xml:space="preserve">
-    <value>6. 设置是用于主题、语言等一般应用设置。</value>
+    <value>6. 应用设置：调整主题、语言及其他通用选项。</value>
   </data>
   <data name="Onboarding_Complete_Header" xml:space="preserve">
-    <value>安装完成！</value>
+    <value>设置完成！</value>
   </data>
   <data name="Onboarding_Complete_Description1" xml:space="preserve">
-    <value>您都已设置为开始使用新的 Babble 应用程序！</value>
+    <value>现在可以开始使用新版 Babble 应用了！</value>
   </data>
   <data name="Onboarding_Complete_Description2" xml:space="preserve">
-    <value>您可以在设置中重新查看此页面。</value>
+    <value>以后可以从“应用设置”重新打开本向导。</value>
   </data>
   <data name="Settings_OSC_IP_Label" xml:space="preserve">
-    <value>IP 地址</value>
+    <value>目标 IP 地址</value>
   </data>
   <data name="Settings_OSC_Prefix_Label" xml:space="preserve">
-    <value>OSC Prefix</value>
+    <value>OSC 地址前缀</value>
   </data>
   <data name="Settings_OSC_Recalibrate_Label" xml:space="preserve">
-    <value>重整地址</value>
+    <value>重新校准的 OSC 地址</value>
   </data>
   <data name="Settings_OSC_Recenter_Label" xml:space="preserve">
-    <value>Recenter 地址</value>
+    <value>视线回中的 OSC 地址</value>
   </data>
   <data name="Settings_OSC_SendPort_Label" xml:space="preserve">
     <value>发送端口</value>
@@ -595,61 +595,61 @@
     <value>接收端口</value>
   </data>
   <data name="AdminWarning_Header" xml:space="preserve">
-    <value>管理员模式警告</value>
+    <value>管理员模式提示</value>
   </data>
   <data name="AdminWarning_Message" xml:space="preserve">
-    <value>不要以管理员身份运行 Baballonia ！没有必要，它阻止眼睛跟踪校准工作。</value>
+    <value>请以普通用户身份运行 Baballonia。应用无需管理员权限，以管理员身份运行会导致眼动校准无法正常工作。</value>
   </data>
   <data name="Aero_Overlay_NotFound" xml:space="preserve">
-    <value>游戏叠加程序不存在！</value>
+    <value>找不到视线校准叠加程序！</value>
   </data>
   <data name="Aero_Overlay_AlreadyRunning" xml:space="preserve">
-    <value>游戏叠加程序已在运行！请关闭后重试。</value>
+    <value>视线校准叠加程序已在运行，请关闭后重试。</value>
   </data>
   <data name="Aero_SteamVR_NotRunning" xml:space="preserve">
-    <value>SteamVR 未运行。请运行后重试。</value>
+    <value>SteamVR 尚未运行，请启动后重试。</value>
   </data>
   <data name="Aero_CameraStream_Failed" xml:space="preserve">
-    <value>启动相机流失败！</value>
+    <value>无法启动摄像头视频流！</value>
   </data>
   <data name="Aero_Calibration_Failed" xml:space="preserve">
-    <value>启动校准失败！</value>
+    <value>无法启动校准！</value>
   </data>
   <data name="Aero_Calibration_Success" xml:space="preserve">
-    <value>眼睛跟踪校准成功！</value>
+    <value>眼动校准成功！</value>
   </data>
   <data name="Aero_Overlay_CleanupFailed" xml:space="preserve">
-    <value>停止/清理覆盖失败！</value>
+    <value>无法停止或清理视线校准叠加程序！</value>
   </data>
   <data name="Calibration_Instructions_Line1" xml:space="preserve">
-    <value>下面的滑块用于校准</value>
+    <value>下方滑块用于调整各项表情的</value>
   </data>
   <data name="Calibration_Instructions_Sensitivity" xml:space="preserve">
     <value>灵敏度</value>
   </data>
   <data name="Calibration_Instructions_Line1_2" xml:space="preserve">
-    <value>你的脸部表达式。</value>
+    <value>。</value>
   </data>
   <data name="Calibration_Instructions_Bullet1_1" xml:space="preserve">
-    <value>• 提高妇女地位</value>
+    <value>• 提高</value>
   </data>
   <data name="Calibration_Instructions_Minimum" xml:space="preserve">
-    <value>最小值</value>
+    <value>最小阈值</value>
   </data>
   <data name="Calibration_Instructions_Bullet1_2" xml:space="preserve">
-    <value>值需要一个更强的表达式才能开始显示。</value>
+    <value>，需要做出更明显的动作才会触发表情。</value>
   </data>
   <data name="Settings_Language_Chinese_Simplified" xml:space="preserve">
-    <value>中文(简体)</value>
+    <value>简体中文</value>
   </data>
   <data name="Settings_Language_Chinese_Traditional" xml:space="preserve">
-    <value>中文(繁体)</value>
+    <value>繁体中文</value>
   </data>
   <data name="Settings_Language_German" xml:space="preserve">
-    <value>德文</value>
+    <value>德语</value>
   </data>
   <data name="Settings_Language_French" xml:space="preserve">
-    <value>法文</value>
+    <value>法语</value>
   </data>
   <data name="Settings_Language_Italian" xml:space="preserve">
     <value>意大利语</value>
@@ -658,13 +658,13 @@
     <value>韩语</value>
   </data>
   <data name="Settings_Language_Portuguese_Brazil" xml:space="preserve">
-    <value>葡萄牙语(巴西)</value>
+    <value>葡萄牙语（巴西）</value>
   </data>
   <data name="Settings_Language_Portuguese_Portugal" xml:space="preserve">
-    <value>葡萄牙语(葡萄牙)</value>
+    <value>葡萄牙语（葡萄牙）</value>
   </data>
   <data name="Settings_Language_Russian" xml:space="preserve">
-    <value>俄文</value>
+    <value>俄语</value>
   </data>
   <data name="Settings_Language_Arabic" xml:space="preserve">
     <value>阿拉伯语</value>
@@ -691,13 +691,13 @@
     <value>捷克语</value>
   </data>
   <data name="Settings_Language_Hungarian" xml:space="preserve">
-    <value>匈牙利</value>
+    <value>匈牙利语</value>
   </data>
   <data name="Settings_Language_Romanian" xml:space="preserve">
     <value>罗马尼亚语</value>
   </data>
   <data name="Settings_Language_Vietnamese" xml:space="preserve">
-    <value>Vietnamese</value>
+    <value>越南语</value>
   </data>
   <data name="Settings_Language_Ukrainian" xml:space="preserve">
     <value>乌克兰语</value>
@@ -718,55 +718,55 @@
     <value>塞尔维亚语</value>
   </data>
   <data name="Calibration_Instructions_Bullet2_1" xml:space="preserve">
-    <value>• 降低价格</value>
+    <value>• 降低</value>
   </data>
   <data name="Calibration_Instructions_Maximum" xml:space="preserve">
-    <value>最大值</value>
+    <value>最大阈值</value>
   </data>
   <data name="Calibration_Instructions_Bullet2_2" xml:space="preserve">
-    <value>值意味着一个较小的表达式会更快地达到100%。</value>
+    <value>，较小的动作就能达到 100% 的表情强度。</value>
   </data>
   <data name="DropOverlay_Important_Header" xml:space="preserve">
-    <value>重要！</value>
+    <value>提示</value>
   </data>
   <data name="DropOverlay_Message" xml:space="preserve">
-    <value>较新的可携带追踪器在使用前被接通后会被延迟20秒。 一旦准备好，它将使USB插入声音！</value>
+    <value>新版 Babble 追踪器插入后，需要等待约 20 秒才能使用。准备就绪时，系统会播放 USB 设备连接提示音。</value>
   </data>
   <data name="DropOverlay_DontShowAgain" xml:space="preserve">
-    <value>不再显示此警告</value>
+    <value>不再显示此提示</value>
   </data>
   <data name="DropOverlay_Dismiss_Button" xml:space="preserve">
     <value>关闭</value>
   </data>
   <data name="Settings_OSC_VRCFT_Warning" xml:space="preserve">
-    <value>如果您将Baballonia与VRCFaceTracking一起使用，则无需更改这些端口</value>
+    <value>配合 VRCFaceTracking 使用时，无需修改这些端口。</value>
   </data>
   <data name="Home_Preferred_Backend" xml:space="preserve">
-    <value>首选后端</value>
+    <value>设备类型</value>
   </data>
   <data name="Home_Backend_Select_Placeholder" xml:space="preserve">
-    <value>选择一个设备...</value>
+    <value>选择设备类型…</value>
   </data>
   <data name="Home_Backend_Default" xml:space="preserve">
     <value>默认</value>
   </data>
   <data name="Home_Eye_Load_Model" xml:space="preserve">
-    <value>加载眼部模型</value>
+    <value>加载眼动模型</value>
   </data>
   <data name="Firmware_Custom_Firmware_Load" xml:space="preserve">
     <value>加载自定义固件</value>
   </data>
   <data name="Settings_SteamVR_Auto_Start_Header" xml:space="preserve">
-    <value>与SteamVR自动启动</value>
+    <value>随 SteamVR 自动启动</value>
   </data>
   <data name="Settings_SteamVR_Auto_Start_Description" xml:space="preserve">
-    <value>应用程序是否应与SteamVR一起启动？（更改需要重启SteamVR。）</value>
+    <value>启动 SteamVR 时自动启动本应用，更改后需重启 SteamVR。</value>
   </data>
   <data name="Settings_Advanced_Header" xml:space="preserve">
     <value>启用高级设置</value>
   </data>
   <data name="Settings_Advanced_Description" xml:space="preserve">
-    <value>高级设置</value>
+    <value>显示高级设置选项</value>
   </data>
   <data name="Godot_Locale" xml:space="preserve">
     <value>zh_CN</value>
@@ -778,31 +778,31 @@
     <value>关于我们</value>
   </data>
   <data name="About_AboutUs_Description" xml:space="preserve">
-    <value>我们的快速入门指南、社交媒体、文档等链接</value>
+    <value>快速入门、社交媒体和使用文档等链接</value>
   </data>
   <data name="About_AboutBaballonia_Header" xml:space="preserve">
-    <value>关于Baballonia</value>
+    <value>关于 Baballonia</value>
   </data>
   <data name="About_AboutBaballonia_Description" xml:space="preserve">
-    <value>技术爱好者链接（GitHub等）</value>
+    <value>源代码、问题反馈和构建说明等链接</value>
   </data>
   <data name="About_Credits_Header" xml:space="preserve">
     <value>致谢</value>
   </data>
   <data name="About_Credits_Description" xml:space="preserve">
-    <value>让这个项目成为现在这样的人。谢谢大家！</value>
+    <value>感谢所有为本项目做出贡献的人！</value>
   </data>
   <data name="About_QuickstartGuide_Alias" xml:space="preserve">
     <value>快速入门指南 ⧉</value>
   </data>
   <data name="About_BabbleDiscord_Alias" xml:space="preserve">
-    <value>Babble Discord ⧉</value>
+    <value>Babble Discord 社区 ⧉</value>
   </data>
   <data name="About_PishockDiscord_Alias" xml:space="preserve">
-    <value>PiShock Discord ⧉</value>
+    <value>PiShock Discord 社区 ⧉</value>
   </data>
   <data name="About_BabbleDocs_Alias" xml:space="preserve">
-    <value>Babble 文档 ⧉</value>
+    <value>Babble 使用文档 ⧉</value>
   </data>
   <data name="About_BabbleSite_Alias" xml:space="preserve">
     <value>Babble 网站 ⧉</value>
@@ -814,7 +814,7 @@
     <value>数据隐私政策 ⧉</value>
   </data>
   <data name="About_YoutubeLink_Alias" xml:space="preserve">
-    <value>Babble YouTube 页面 ⧉</value>
+    <value>Babble YouTube 频道 ⧉</value>
   </data>
   <data name="About_BabbleTwitter_Alias" xml:space="preserve">
     <value>Babble Twitter ⧉</value>
@@ -823,7 +823,7 @@
     <value>Baballonia GitHub ⧉</value>
   </data>
   <data name="About_BaballoniaGithubIssues_Alias" xml:space="preserve">
-    <value>Baballonia GitHub 问题 ⧉</value>
+    <value>Baballonia 问题反馈 ⧉</value>
   </data>
   <data name="About_BaballoniaLicense_Alias" xml:space="preserve">
     <value>Baballonia 许可证 ⧉</value>
@@ -835,47 +835,47 @@
     <value>{0} 次提交</value>
   </data>
   <data name="Firmware_Flashing_Wireless_Prompt" xml:space="preserve">
-    <value>在您的Babble Tracker上刷写自定义固件时，最好先将设备设置为“无线”模式。
-您无需输入任何Wi-Fi凭据。只需将跟踪器切换到“无线”模式，然后在刷写前重启它。</value>
+    <value>刷写自定义固件前，建议先将 Babble 追踪器切换为“无线”模式。
+无需设置 Wi-Fi 名称和密码，只需切换到“无线”模式并重启追踪器，然后再刷写。</value>
   </data>
   <data name="Firmware_Flashing_Header_Alert" xml:space="preserve">
-    <value>如果您将Babble Tracker与Valve Index或Bigscreen Beyond（带/不带1.0基站）一起使用，您可能会注意到：
-• 您的屏幕意外变灰
-• 跟踪中断或频繁丢失位置
-这通常很容易修复！只需在下面安装“跟踪丢失修复”固件。</value>
+    <value>将 Babble 追踪器与 Valve Index 或 Bigscreen Beyond 搭配使用时，无论是否使用 1.0 基站，都可能出现以下情况：
+• 头显画面意外变灰
+• 定位追踪中断或频繁丢失
+可尝试安装下方的“定位追踪丢失修复”固件。</value>
   </data>
   <data name="Common_Note" xml:space="preserve">
-    <value>注意</value>
+    <value>说明</value>
   </data>
   <data name="Home_Cameras_Linux_Workarounds" xml:space="preserve">
-    <value>解决方法:
-• 尝试 Steam scout 1.0 运行时（不是 sniper 3.0），安装 libudev，从源代码构建，或加入 plugdev 组。
-• 我们只支持 Steam 和 tarball 版本，不支持 AUR 包。
-• Babble 板在 Linux 上不支持 UVC/串口，请使用无线配置。</value>
+    <value>解决方法：
+• 尝试使用 Steam scout 1.0 运行环境（而非 sniper 3.0）、安装 libudev、从源码构建，或将当前用户加入 plugdev 组。
+• 官方仅支持 Steam 和 tar 压缩包版本，不支持 AUR 软件包。
+• Babble 开发板在 Linux 上不支持 UVC 或串口连接，请使用无线模式。</value>
   </data>
   <data name="Settings_ShareData_Header" xml:space="preserve">
-    <value>共享眼睛/面部数据</value>
+    <value>共享眼部和面部数据</value>
   </data>
   <data name="Settings_ShareData_Description" xml:space="preserve">
-    <value>选择共享匿名眼睛/面部数据以改进我们的算法</value>
+    <value>自愿共享匿名眼部和面部数据，帮助改进追踪算法</value>
   </data>
   <data name="Settings_DFR_Header" xml:space="preserve">
-    <value>使用DFR</value>
+    <value>使用动态注视点渲染（DFR）</value>
   </data>
   <data name="Settings_DFR_Description" xml:space="preserve">
-    <value>为选定的游戏启用Pimax4All动态注视点渲染</value>
+    <value>为支持的游戏启用 Pimax4All 动态注视点渲染</value>
   </data>
   <data name="Firmware_Mode_Both" xml:space="preserve">
-    <value>两者</value>
+    <value>眼部和面部</value>
   </data>
   <data name="Firmware_Mode_Eyes" xml:space="preserve">
-    <value>眼睛</value>
+    <value>仅眼部</value>
   </data>
   <data name="Firmware_Mode_Face" xml:space="preserve">
-    <value>面部</value>
+    <value>仅面部</value>
   </data>
   <data name="Firmware_Mode_None" xml:space="preserve">
-    <value>无</value>
+    <value>不发送</value>
   </data>
   <data name="Settings_LogLevel_Debug" xml:space="preserve">
     <value>调试</value>
@@ -890,7 +890,7 @@
     <value>错误</value>
   </data>
   <data name="Settings_LogLevel_Level" xml:space="preserve">
-    <value>选择级别...</value>
+    <value>选择日志级别…</value>
   </data>
   <data name="Tray_Show" xml:space="preserve">
     <value>显示 Baballonia</value>
@@ -899,9 +899,345 @@
     <value>最小化到系统托盘</value>
   </data>
   <data name="Tray_Tooltip" xml:space="preserve">
-    <value>右键单击查看 Baballonia 选项</value>
+    <value>右键点击查看 Baballonia 选项</value>
   </data>
   <data name="Tray_Exit" xml:space="preserve">
     <value>退出</value>
+  </data>
+  <data name="Calibration_Expression_LeftEyeLid" xml:space="preserve">
+    <value>左眼开合</value>
+  </data>
+  <data name="Calibration_Expression_LeftEyeLid_Description" xml:space="preserve">
+    <value>睁开或闭合左眼；数值表示眼睑张开的程度。</value>
+  </data>
+  <data name="Calibration_Expression_RightEyeLid" xml:space="preserve">
+    <value>右眼开合</value>
+  </data>
+  <data name="Calibration_Expression_RightEyeLid_Description" xml:space="preserve">
+    <value>睁开或闭合右眼；数值表示眼睑张开的程度。</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffLeft" xml:space="preserve">
+    <value>左脸颊鼓起</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffLeft_Description" xml:space="preserve">
+    <value>向左脸颊充气，使脸颊向外鼓起。</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffRight" xml:space="preserve">
+    <value>右脸颊鼓起</value>
+  </data>
+  <data name="Calibration_Expression_CheekPuffRight_Description" xml:space="preserve">
+    <value>向右脸颊充气，使脸颊向外鼓起。</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckLeft" xml:space="preserve">
+    <value>左脸颊内吸</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckLeft_Description" xml:space="preserve">
+    <value>将左脸颊向口腔内吸，使脸颊凹陷。</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckRight" xml:space="preserve">
+    <value>右脸颊内吸</value>
+  </data>
+  <data name="Calibration_Expression_CheekSuckRight_Description" xml:space="preserve">
+    <value>将右脸颊向口腔内吸，使脸颊凹陷。</value>
+  </data>
+  <data name="Calibration_Expression_JawOpen" xml:space="preserve">
+    <value>下颌张开</value>
+  </data>
+  <data name="Calibration_Expression_JawOpen_Description" xml:space="preserve">
+    <value>放低下颌、张开嘴巴，表示下颌的张开程度。</value>
+  </data>
+  <data name="Calibration_Expression_JawForward" xml:space="preserve">
+    <value>下颌前伸</value>
+  </data>
+  <data name="Calibration_Expression_JawForward_Description" xml:space="preserve">
+    <value>将下颌向前伸，使下巴前移。</value>
+  </data>
+  <data name="Calibration_Expression_JawLeft" xml:space="preserve">
+    <value>下颌左移</value>
+  </data>
+  <data name="Calibration_Expression_JawLeft_Description" xml:space="preserve">
+    <value>将下颌向自己的左侧移动。</value>
+  </data>
+  <data name="Calibration_Expression_JawRight" xml:space="preserve">
+    <value>下颌右移</value>
+  </data>
+  <data name="Calibration_Expression_JawRight_Description" xml:space="preserve">
+    <value>将下颌向自己的右侧移动。</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerLeft" xml:space="preserve">
+    <value>左侧皱鼻</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerLeft_Description" xml:space="preserve">
+    <value>抬起左侧鼻翼周围的肌肉，做出皱鼻动作。</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerRight" xml:space="preserve">
+    <value>右侧皱鼻</value>
+  </data>
+  <data name="Calibration_Expression_NoseSneerRight_Description" xml:space="preserve">
+    <value>抬起右侧鼻翼周围的肌肉，做出皱鼻动作。</value>
+  </data>
+  <data name="Calibration_Expression_MouthFunnel" xml:space="preserve">
+    <value>嘴唇拢圆（张口）</value>
+  </data>
+  <data name="Calibration_Expression_MouthFunnel_Description" xml:space="preserve">
+    <value>双唇前拢并保持开口，做出发“O”音的圆形嘴型。</value>
+  </data>
+  <data name="Calibration_Expression_MouthPucker" xml:space="preserve">
+    <value>噘嘴（闭唇）</value>
+  </data>
+  <data name="Calibration_Expression_MouthPucker_Description" xml:space="preserve">
+    <value>双唇收拢并向前突出，做出亲吻时的噘嘴动作。</value>
+  </data>
+  <data name="Calibration_Expression_MouthLeft" xml:space="preserve">
+    <value>嘴部左移</value>
+  </data>
+  <data name="Calibration_Expression_MouthLeft_Description" xml:space="preserve">
+    <value>上下嘴唇一起向自己的左侧移动。</value>
+  </data>
+  <data name="Calibration_Expression_MouthRight" xml:space="preserve">
+    <value>嘴部右移</value>
+  </data>
+  <data name="Calibration_Expression_MouthRight_Description" xml:space="preserve">
+    <value>上下嘴唇一起向自己的右侧移动。</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollUpper" xml:space="preserve">
+    <value>上唇内卷</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollUpper_Description" xml:space="preserve">
+    <value>将上嘴唇向口腔内卷，使唇红部分藏起。</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollLower" xml:space="preserve">
+    <value>下唇内卷</value>
+  </data>
+  <data name="Calibration_Expression_MouthRollLower_Description" xml:space="preserve">
+    <value>将下嘴唇向口腔内卷，使唇红部分藏起。</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugUpper" xml:space="preserve">
+    <value>上唇上提外突</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugUpper_Description" xml:space="preserve">
+    <value>将上嘴唇上提并略微向外突出。</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugLower" xml:space="preserve">
+    <value>下唇上提外突</value>
+  </data>
+  <data name="Calibration_Expression_MouthShrugLower_Description" xml:space="preserve">
+    <value>将下嘴唇上提并略微向外突出，带动下巴隆起。</value>
+  </data>
+  <data name="Calibration_Expression_MouthClose" xml:space="preserve">
+    <value>双唇闭合</value>
+  </data>
+  <data name="Calibration_Expression_MouthClose_Description" xml:space="preserve">
+    <value>使上下嘴唇合拢；与下颌是否张开相互独立。</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileLeft" xml:space="preserve">
+    <value>左嘴角上扬</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileLeft_Description" xml:space="preserve">
+    <value>抬起左侧嘴角，做出左侧微笑。</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileRight" xml:space="preserve">
+    <value>右嘴角上扬</value>
+  </data>
+  <data name="Calibration_Expression_MouthSmileRight_Description" xml:space="preserve">
+    <value>抬起右侧嘴角，做出右侧微笑。</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownLeft" xml:space="preserve">
+    <value>左嘴角下垂</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownLeft_Description" xml:space="preserve">
+    <value>将左侧嘴角向下拉，做出难过时的嘴型。</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownRight" xml:space="preserve">
+    <value>右嘴角下垂</value>
+  </data>
+  <data name="Calibration_Expression_MouthFrownRight_Description" xml:space="preserve">
+    <value>将右侧嘴角向下拉，做出难过时的嘴型。</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleLeft" xml:space="preserve">
+    <value>左嘴角后收（酒窝）</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleLeft_Description" xml:space="preserve">
+    <value>将左侧嘴角向后收紧，在嘴角旁形成凹陷。</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleRight" xml:space="preserve">
+    <value>右嘴角后收（酒窝）</value>
+  </data>
+  <data name="Calibration_Expression_MouthDimpleRight_Description" xml:space="preserve">
+    <value>将右侧嘴角向后收紧，在嘴角旁形成凹陷。</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpLeft" xml:space="preserve">
+    <value>左侧上唇抬起</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpLeft_Description" xml:space="preserve">
+    <value>抬起上嘴唇的左半侧，露出左侧上牙。</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpRight" xml:space="preserve">
+    <value>右侧上唇抬起</value>
+  </data>
+  <data name="Calibration_Expression_MouthUpperUpRight_Description" xml:space="preserve">
+    <value>抬起上嘴唇的右半侧，露出右侧上牙。</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownLeft" xml:space="preserve">
+    <value>左侧下唇下拉</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownLeft_Description" xml:space="preserve">
+    <value>向下拉动下嘴唇的左半侧，露出左侧下牙。</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownRight" xml:space="preserve">
+    <value>右侧下唇下拉</value>
+  </data>
+  <data name="Calibration_Expression_MouthLowerDownRight_Description" xml:space="preserve">
+    <value>向下拉动下嘴唇的右半侧，露出右侧下牙。</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressLeft" xml:space="preserve">
+    <value>左侧抿唇</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressLeft_Description" xml:space="preserve">
+    <value>将左侧上下嘴唇压紧，使嘴唇变薄。</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressRight" xml:space="preserve">
+    <value>右侧抿唇</value>
+  </data>
+  <data name="Calibration_Expression_MouthPressRight_Description" xml:space="preserve">
+    <value>将右侧上下嘴唇压紧，使嘴唇变薄。</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchLeft" xml:space="preserve">
+    <value>左嘴角外拉</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchLeft_Description" xml:space="preserve">
+    <value>将左侧嘴角向外侧拉伸，使嘴部横向变宽。</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchRight" xml:space="preserve">
+    <value>右嘴角外拉</value>
+  </data>
+  <data name="Calibration_Expression_MouthStretchRight_Description" xml:space="preserve">
+    <value>将右侧嘴角向外侧拉伸，使嘴部横向变宽。</value>
+  </data>
+  <data name="Calibration_Expression_TongueOut" xml:space="preserve">
+    <value>伸舌</value>
+  </data>
+  <data name="Calibration_Expression_TongueOut_Description" xml:space="preserve">
+    <value>将舌头伸出口腔。</value>
+  </data>
+  <data name="Calibration_Expression_TongueUp" xml:space="preserve">
+    <value>舌尖向上</value>
+  </data>
+  <data name="Calibration_Expression_TongueUp_Description" xml:space="preserve">
+    <value>将舌尖朝上抬起。</value>
+  </data>
+  <data name="Calibration_Expression_TongueDown" xml:space="preserve">
+    <value>舌尖向下</value>
+  </data>
+  <data name="Calibration_Expression_TongueDown_Description" xml:space="preserve">
+    <value>将舌尖朝下压低。</value>
+  </data>
+  <data name="Calibration_Expression_TongueLeft" xml:space="preserve">
+    <value>舌头左移</value>
+  </data>
+  <data name="Calibration_Expression_TongueLeft_Description" xml:space="preserve">
+    <value>将舌头朝自己的左侧移动。</value>
+  </data>
+  <data name="Calibration_Expression_TongueRight" xml:space="preserve">
+    <value>舌头右移</value>
+  </data>
+  <data name="Calibration_Expression_TongueRight_Description" xml:space="preserve">
+    <value>将舌头朝自己的右侧移动。</value>
+  </data>
+  <data name="Calibration_Expression_TongueRoll" xml:space="preserve">
+    <value>舌头卷成筒</value>
+  </data>
+  <data name="Calibration_Expression_TongueRoll_Description" xml:space="preserve">
+    <value>将舌头两侧向上卷，使舌面呈沟槽或筒状。</value>
+  </data>
+  <data name="Calibration_Expression_TongueBendDown" xml:space="preserve">
+    <value>舌尖下弯</value>
+  </data>
+  <data name="Calibration_Expression_TongueBendDown_Description" xml:space="preserve">
+    <value>舌身拱起，舌尖相对舌身向下弯。</value>
+  </data>
+  <data name="Calibration_Expression_TongueCurlUp" xml:space="preserve">
+    <value>舌尖上卷</value>
+  </data>
+  <data name="Calibration_Expression_TongueCurlUp_Description" xml:space="preserve">
+    <value>舌身下凹，舌尖相对舌身向上卷起。</value>
+  </data>
+  <data name="Calibration_Expression_TongueSquish" xml:space="preserve">
+    <value>舌头收窄增厚</value>
+  </data>
+  <data name="Calibration_Expression_TongueSquish_Description" xml:space="preserve">
+    <value>舌头左右收窄、上下变厚。</value>
+  </data>
+  <data name="Calibration_Expression_TongueFlat" xml:space="preserve">
+    <value>舌头展宽压平</value>
+  </data>
+  <data name="Calibration_Expression_TongueFlat_Description" xml:space="preserve">
+    <value>舌头左右展宽、上下变薄。</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistLeft" xml:space="preserve">
+    <value>舌头向左扭转</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistLeft_Description" xml:space="preserve">
+    <value>舌尖向左扭转，舌身随之扭动。</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistRight" xml:space="preserve">
+    <value>舌头向右扭转</value>
+  </data>
+  <data name="Calibration_Expression_TongueTwistRight_Description" xml:space="preserve">
+    <value>舌尖向右扭转，舌身随之扭动。</value>
+  </data>
+  <data name="Calibration_Instructions_ParameterHelp" xml:space="preserve">
+    <value>左右均以佩戴者自身为准。每项说明对应具体动作；将鼠标悬停在名称上可查看原始参数名。滑块左端为最小阈值，右端为最大阈值，中间标记为当前数值。</value>
+  </data>
+  <data name="Settings_Identifier_Label" xml:space="preserve">
+    <value>你的标识符：</value>
+  </data>
+  <data name="Firmware_Mode_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Firmware_Mode_Wired" xml:space="preserve">
+    <value>有线</value>
+  </data>
+  <data name="Firmware_Mode_Wireless" xml:space="preserve">
+    <value>无线</value>
+  </data>
+  <data name="Firmware_MDNS_Header" xml:space="preserve">
+    <value>更改 mDNS 名称（可选）</value>
+  </data>
+  <data name="Firmware_MDNS_Placeholder" xml:space="preserve">
+    <value>输入 mDNS 名称…</value>
+  </data>
+  <data name="Home_Eye_Calibration_NoTutorial" xml:space="preserve">
+    <value>眼动校准（跳过教程）</value>
+  </data>
+  <data name="Home_Eye_Gaze_Calibration" xml:space="preserve">
+    <value>视线校准</value>
+  </data>
+  <data name="Home_Eye_Blink_Calibration" xml:space="preserve">
+    <value>眨眼校准</value>
+  </data>
+  <data name="DropOverlay_DataSharing_Message" xml:space="preserve">
+    <value>Project Babble 提供自愿数据共享计划，用于改进眼部和面部追踪模型。你随时可以在“应用设置”中加入或退出。</value>
+  </data>
+  <data name="DropOverlay_DataSharing_OptIn" xml:space="preserve">
+    <value>同意共享</value>
+  </data>
+  <data name="Common_FirmwareFile" xml:space="preserve">
+    <value>固件文件</value>
+  </data>
+  <data name="Common_TextFile" xml:space="preserve">
+    <value>文本文件</value>
+  </data>
+  <data name="Common_OnnxModels" xml:space="preserve">
+    <value>ONNX 模型</value>
+  </data>
+  <data name="Output_SaveLog_DialogTitle" xml:space="preserve">
+    <value>保存日志文件</value>
+  </data>
+  <data name="Firmware_SelectFirmware_DialogTitle" xml:space="preserve">
+    <value>选择固件文件（.bin）</value>
+  </data>
+  <data name="Home_SelectModel_DialogTitle" xml:space="preserve">
+    <value>选择 ONNX 模型</value>
   </data>
 </root>

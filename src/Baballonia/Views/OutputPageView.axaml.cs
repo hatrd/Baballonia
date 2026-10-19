@@ -3,6 +3,7 @@ using Avalonia.Interactivity;
 using Avalonia.Platform.Storage;
 using Avalonia.Threading;
 using Baballonia.Services;
+using LocalizedResources = Baballonia.Assets.Resources;
 using System;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -51,12 +52,12 @@ public partial class OutputPageView : UserControl
         {
             var file = await TopLevel.GetTopLevel(this)?.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
             {
-                Title = "Save Log File",
+                Title = LocalizedResources.Output_SaveLog_DialogTitle,
                 SuggestedFileName = "log.txt",
                 DefaultExtension = "txt",
                 FileTypeChoices =
                 [
-                    new FilePickerFileType("Text File")
+                    new FilePickerFileType(LocalizedResources.Common_TextFile)
                     {
                         Patterns = FileOptions
                     }

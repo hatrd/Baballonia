@@ -4,6 +4,8 @@
 
 **Baballonia** is a cross-platform, hardware-agnostic XR eye and face tracking application.
 
+本分支提供更新后的简体、繁体中文界面，包含全部表情校准参数的中文名称和动作说明。Windows x64 安装包和便携版可从[本仓库的 Releases](https://github.com/hatrd/Baballonia/releases/latest) 下载。
+
 ## Installation
 
 ### Steam
@@ -95,6 +97,8 @@ Baballonia supports many kinds of hardware for eye and face tracking:
 3. Run ``dotnet build`` inside the ``src/Baballonia.Desktop`` directory, or build with your IDE
 
 #### Publishing
+
+This fork's Windows release workflow is `.github/workflows/release.yml`. Push a `vX.Y.Z` tag, or run **Release Windows** manually with an `X.Y.Z` version. It checks Chinese resources, bundles the .NET runtime and calibration/firmware tools, and publishes an installer, a portable ZIP, and SHA-256 checksums. Use a new version for each published release.
 
 If you want to publish a standalone installer for Baballonia, download [NSIS](https://github.com/negrutiu/nsis) here, or use your package manager. Then, run the 
 `.nsi` script located at `src/Baballonia.Desktop/main.nsi`

@@ -46,6 +46,11 @@
         <Run Text="{x:Static assets:Resources.Calibration_Instructions_Bullet2_2}" />
       </TextBlock>
 
+      <TextBlock
+        Margin="0,8,0,0"
+        Text="{x:Static assets:Resources.Calibration_Instructions_ParameterHelp}"
+        TextWrapping="Wrap" />
+
       <StackPanel
         x:Name="ResetMobileStackPanel"
         Orientation="Vertical"
@@ -73,12 +78,18 @@
                   CornerRadius="8">
                   <Grid>
                     <StackPanel>
-                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center">
-                        <Run FontWeight="SemiBold" Text="{Binding Name} " />
+                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" TextWrapping="Wrap" ToolTip.Tip="{Binding Name}">
+                        <Run FontWeight="SemiBold" Text="{Binding DisplayName}" />
+                        <Run Text="  " />
                         <Run Text="{Binding Lower, StringFormat={}{0:0.00}}" />
-                        <Run Text="-" />
+                        <Run Text=" – " />
                         <Run Text="{Binding Upper, StringFormat={}{0:0.00}}" />
                       </TextBlock>
+                      <TextBlock
+                        Margin="0,4,0,8"
+                        Opacity="0.75"
+                        Text="{Binding Description}"
+                        TextWrapping="Wrap" />
                       <twoRangeSlider:RangeSlider
                         LowerSelectedValue="{Binding Lower, Mode=TwoWay}"
                         Maximum="1"
@@ -112,12 +123,18 @@
                   CornerRadius="8">
                   <Grid>
                     <StackPanel>
-                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center">
-                        <Run FontWeight="SemiBold" Text="{Binding Name}" />
+                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" TextWrapping="Wrap" ToolTip.Tip="{Binding Name}">
+                        <Run FontWeight="SemiBold" Text="{Binding DisplayName}" />
+                        <Run Text="  " />
                         <Run Text="{Binding Lower, StringFormat={}{0:0.00}}" />
-                        <Run Text="-" />
+                        <Run Text=" – " />
                         <Run Text="{Binding Upper, StringFormat={}{0:0.00}}" />
                       </TextBlock>
+                      <TextBlock
+                        Margin="0,4,0,8"
+                        Opacity="0.75"
+                        Text="{Binding Description}"
+                        TextWrapping="Wrap" />
                       <twoRangeSlider:RangeSlider
                         LowerSelectedValue="{Binding Lower, Mode=TwoWay}"
                         Maximum="1"
@@ -151,12 +168,18 @@
                   CornerRadius="8">
                   <Grid>
                     <StackPanel>
-                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center">
-                        <Run FontWeight="SemiBold" Text="{Binding Name} " />
+                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" TextWrapping="Wrap" ToolTip.Tip="{Binding Name}">
+                        <Run FontWeight="SemiBold" Text="{Binding DisplayName}" />
+                        <Run Text="  " />
                         <Run Text="{Binding Lower, StringFormat={}{0:0.00}}" />
-                        <Run Text="-" />
+                        <Run Text=" – " />
                         <Run Text="{Binding Upper, StringFormat={}{0:0.00}}" />
                       </TextBlock>
+                      <TextBlock
+                        Margin="0,4,0,8"
+                        Opacity="0.75"
+                        Text="{Binding Description}"
+                        TextWrapping="Wrap" />
                       <twoRangeSlider:RangeSlider
                         LowerSelectedValue="{Binding Lower, Mode=TwoWay}"
                         Maximum="1"
@@ -190,12 +213,18 @@
                   CornerRadius="8">
                   <Grid>
                     <StackPanel>
-                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center">
-                        <Run FontWeight="SemiBold" Text="{Binding Name} " />
+                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" TextWrapping="Wrap" ToolTip.Tip="{Binding Name}">
+                        <Run FontWeight="SemiBold" Text="{Binding DisplayName}" />
+                        <Run Text="  " />
                         <Run Text="{Binding Lower, StringFormat={}{0:0.00}}" />
-                        <Run Text="-" />
+                        <Run Text=" – " />
                         <Run Text="{Binding Upper, StringFormat={}{0:0.00}}" />
                       </TextBlock>
+                      <TextBlock
+                        Margin="0,4,0,8"
+                        Opacity="0.75"
+                        Text="{Binding Description}"
+                        TextWrapping="Wrap" />
                       <twoRangeSlider:RangeSlider
                         LowerSelectedValue="{Binding Lower, Mode=TwoWay}"
                         Maximum="1"
@@ -229,12 +258,18 @@
                   CornerRadius="8">
                   <Grid>
                     <StackPanel>
-                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center">
-                        <Run FontWeight="SemiBold" Text="{Binding Name} " />
+                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" TextWrapping="Wrap" ToolTip.Tip="{Binding Name}">
+                        <Run FontWeight="SemiBold" Text="{Binding DisplayName}" />
+                        <Run Text="  " />
                         <Run Text="{Binding Lower, StringFormat={}{0:0.00}}" />
-                        <Run Text="-" />
+                        <Run Text=" – " />
                         <Run Text="{Binding Upper, StringFormat={}{0:0.00}}" />
                       </TextBlock>
+                      <TextBlock
+                        Margin="0,4,0,8"
+                        Opacity="0.75"
+                        Text="{Binding Description}"
+                        TextWrapping="Wrap" />
                       <twoRangeSlider:RangeSlider
                         LowerSelectedValue="{Binding Lower, Mode=TwoWay}"
                         Maximum="1"
@@ -268,12 +303,18 @@
                   CornerRadius="8">
                   <Grid>
                     <StackPanel>
-                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center">
-                        <Run FontWeight="SemiBold" Text="{Binding Name} " />
+                      <TextBlock Margin="0,0,10,0" VerticalAlignment="Center" TextWrapping="Wrap" ToolTip.Tip="{Binding Name}">
+                        <Run FontWeight="SemiBold" Text="{Binding DisplayName}" />
+                        <Run Text="  " />
                         <Run Text="{Binding Lower, StringFormat={}{0:0.00}}" />
-                        <Run Text="-" />
+                        <Run Text=" – " />
                         <Run Text="{Binding Upper, StringFormat={}{0:0.00}}" />
                       </TextBlock>
+                      <TextBlock
+                        Margin="0,4,0,8"
+                        Opacity="0.75"
+                        Text="{Binding Description}"
+                        TextWrapping="Wrap" />
                       <twoRangeSlider:RangeSlider
                         LowerSelectedValue="{Binding Lower, Mode=TwoWay}"
                         Maximum="1"
